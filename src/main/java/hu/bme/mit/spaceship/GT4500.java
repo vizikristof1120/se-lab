@@ -81,7 +81,7 @@ public class GT4500 implements SpaceShip {
         //TODO implement feature
 	boolean prim = primaryTorpedoStore.fire(1);
 	boolean sec = secondaryTorpedoStore.fire(1);
-	firingSucess= (prim||sec);
+	firingSuccess= (prim||sec);
 	wasPrimaryFiredLast =prim;
         break;
     }
